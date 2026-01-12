@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "tymiqly_app",
+    "name": "Tymiqly",
     "slug": "tymiqly_app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,10 +20,16 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.tymiqly"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4c5ee427-41ac-4dbc-a689-a2247f83268d"
+      }
     }
   }
 }
